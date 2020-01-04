@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="index.js" defer></script>
+  <title>Piano</title>
+</head>
+<body>
+	<div id="blackmask"></div>
+	<br><br><br>
+  <div class="piano">
+    <div data-sound="C" class="note white"></div>
+    <div data-sound="Db" class="note black"></div>
+    <div data-sound="D" class="note white"></div>
+    <div data-sound="Eb" class="note black"></div>
+    <div data-sound="E" class="note white"></div>
+    <div data-sound="F" class="note white"></div>
+    <div data-sound="Gb" class="note black"></div>
+    <div data-sound="G" class="note white"></div>
+    <div data-sound="Ab" class="note black"></div>
+    <div data-sound="A" class="note white"></div>
+    <div data-sound="Bb" class="note black"></div>
+    <div data-sound="B" class="note white"></div>
+  </div>
+  <br><br><br>
+  <div id = "melodycontainer">
+  	<div id = "title">Your Melody:</div>
+  	<div id = "melody"></div>
+  	<div id = "extras">
+  		<div id = "clear">Clear</div>
+  		<div id = "download">Download</div>
+  		<div id = "play">Play Melody</div>
+  	</div>
+  	
+  </div>
+
+  <audio id="C" src="notes/C.mp3"></audio>
+  <audio id="Db" src="notes/Db.mp3"></audio>
+  <audio id="D" src="notes/D.mp3"></audio>
+  <audio id="Eb" src="notes/Eb.mp3"></audio>
+  <audio id="E" src="notes/E.mp3"></audio>
+  <audio id="F" src="notes/F.mp3"></audio>
+  <audio id="Gb" src="notes/Gb.mp3"></audio>
+  <audio id="G" src="notes/G.mp3"></audio>
+  <audio id="Ab" src="notes/Ab.mp3"></audio>
+  <audio id="A" src="notes/A.mp3"></audio>
+  <audio id="Bb" src="notes/Bb.mp3"></audio>
+  <audio id="B" src="notes/B.mp3"></audio>
+  <audio id="blank" src="notes/blank.mp3"></audio>
+</body>
+</html>
